@@ -2,8 +2,6 @@ package com.itschool;
 
 import com.itschool.Classes.*;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -54,5 +52,12 @@ public class Main {
         System.out.println(book1);
         System.out.println(book2);
 
+        Figure figure = new Figure("Triangle", 3);
+        figure.getPoints()[0] = new Point("A", 1, 2);
+        figure.getPoints()[1] = new Point("B", 3, 2);
+        figure.getPoints()[2] = new Point("C", 5, 6);
+
+        System.out.println(figure.toString());
+        System.out.println(figure.getLengthSide(figure.getPoints()[0], figure.getPoints()[1]));
     }
 }
