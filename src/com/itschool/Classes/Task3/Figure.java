@@ -1,4 +1,4 @@
-package com.itschool.Classes;
+package com.itschool.Classes.Task3;
 
 public class Figure
 {

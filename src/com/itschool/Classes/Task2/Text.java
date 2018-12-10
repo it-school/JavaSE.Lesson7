@@ -1,4 +1,4 @@
-package com.itschool.Classes;
+package com.itschool.Classes.Task2;
 
 public class Text
 {

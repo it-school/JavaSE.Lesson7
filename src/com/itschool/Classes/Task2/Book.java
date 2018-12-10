@@ -1,4 +1,6 @@
-package com.itschool.Classes;
+package com.itschool.Classes.Task2;
+
+import com.itschool.Classes.Task1.UkrainianAddress;
 
 public class Book
 {
