@@ -59,5 +59,6 @@ public class Main {
 
         System.out.println(figure.toString());
         System.out.println(figure.getLengthSide(figure.getPoints()[0], figure.getPoints()[1]));
+        
     }
 }
